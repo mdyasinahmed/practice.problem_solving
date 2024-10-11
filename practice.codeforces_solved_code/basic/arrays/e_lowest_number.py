@@ -2,7 +2,6 @@ n = int(input())
 arr = list(map(int, input().split()))
 
 lowest = min(arr)
+position = arr.index(lowest) + 1
 
-pos = arr.index(lowest)
-
-print(lowest, pos)
+print(lowest, position)
